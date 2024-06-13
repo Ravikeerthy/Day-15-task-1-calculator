@@ -1,0 +1,109 @@
+/* .container{
+    background-color: lightgrey;
+    height: 400px;
+    width: 250px;
+    margin: 50px;
+    margin-left: 5px;
+    padding: 20px;
+    border: 2px solid black;
+      
+} */
+
+button {
+  height: 50px;
+  width: 50px;
+  box-shadow: 2px 2px 12px white;
+  background-color: transparent;
+  color: white;
+}
+input {
+  height: 13vh;
+  width: 250px;
+  /* border: 2px solid black; */
+  border: none;
+  padding: 10px;
+  /* margin-bottom: 20px; */
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.5);
+
+  border-radius: 15px;
+  font-size: 80px;
+  text-align-last: right;
+  cursor: pointer;
+}
+#result {
+  font-size: xx-large;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: -5px -5px 15px rgba(211, 214, 219, 0.5),
+    5px 5px 15px rgba(211, 214, 219, 0.5);
+  margin-bottom: 5px;
+}
+input::placeholder {
+  color: white;
+}
+.merge {
+  width: 118px;
+  border: 2px solid lightslategray;
+  font-size: 25px;
+  border-radius: 15px;
+}
+.align {
+  border: 2px solid lightslategray;
+  padding: 5px;
+  margin: 5px;
+  font-size: 25px;
+  /* background-color: darkcyan; */
+  border-radius: 15px;
+}
+input:hover {
+  background-color: rgb(247, 241, 229);
+}
+.align:hover,
+.merge:hover {
+  background-color: rgb(94, 99, 99);
+}
+.clear {
+  border: 2px solid lightslategray;
+  padding: 5px;
+  margin: 5px;
+  font-size: 25px;
+  /* background-color: darkcyan; */
+  border-radius: 15px;
+  /* box-shadow: -5px -5px 12px white; */
+}
+.deleted {
+  border: 2px solid lightslategray;
+  padding: 5px;
+  margin: 5px;
+  font-size: 25px;
+  /* background-color: darkcyan; */
+  border-radius: 15px;
+}
+body {
+  background: linear-gradient(45deg, #f7f6f6, #28292a, rgb(242, 238, 238));
+  text-align: center;
+
+  margin: 90px;
+}
+.container {
+  border: 2px solid black;
+  width: 320px;
+  height: 550px;
+  padding: 30px;
+  background-color: transparent;
+  border-radius: 25px;
+  box-shadow: -5px -5px 15px rgba(211, 214, 219, 0.5),
+    5px 5px 15px rgba(211, 214, 219, 0.5);
+  margin-bottom: 30px;
+}
+
+#title,
+p {
+  /* font-size: 100px; */
+  /* text-decoration: underline; */
+  color: white;
+}
